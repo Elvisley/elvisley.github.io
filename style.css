@@ -1,0 +1,120 @@
+ body{
+    background-color:rgb(23, 182, 116);
+}
+
+@-moz-document url-prefix() { 
+  body{
+    background-color:rgb(0, 182, 116) ;
+  }
+}
+
+aside{
+    text-align: center;
+}
+
+.info{
+    font-family: 'Maiden Orange', cursive;
+    font-size: 8em;
+    color: #ffffff;
+}
+
+img{
+    border: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.animated { 
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: linear; 
+    animation-timing-function: linear; 
+} 
+
+@-webkit-keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        -webkit-transform: translateX(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateX(-10px); 
+    } 
+    100% { 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+
+@keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        transform: translateX(30px); 
+    } 
+    80% { 
+        transform: translateX(-10px); 
+    } 
+    100% { 
+        transform: translateX(0); 
+    } 
+} 
+.bounceInLeft { 
+        -webkit-animation-name: bounceInLeft; 
+        animation-name: bounceInLeft; 
+    }
+
+    @-webkit-keyframes bounceInUp { 
+0% { 
+    opacity: 0; 
+    -webkit-transform: translateY(2000px); 
+} 
+60% { 
+    opacity: 1; 
+    -webkit-transform: translateY(-30px); 
+} 
+80% { 
+    -webkit-transform: translateY(10px); 
+} 
+100% { 
+    -webkit-transform: translateY(0); 
+} 
+} 
+
+@keyframes bounceInUp { 
+0% { 
+    opacity: 0; 
+    transform: translateY(2000px); 
+} 
+60% { 
+    opacity: 1; 
+    transform: translateY(-30px); 
+} 
+80% { 
+    transform: translateY(10px); 
+} 
+100% { 
+    transform: translateY(0); 
+} 
+} 
+
+.bounceInUp { 
+-webkit-animation-name: bounceInUp; 
+animation-name: bounceInUp; 
+}

@@ -23,6 +23,11 @@ img{
     border: 0px;
 }
 
+aside i{
+    color: #ffffff;
+    font-size: 9em !important;
+}
+
 footer{
     position: fixed;
     bottom: 0px;

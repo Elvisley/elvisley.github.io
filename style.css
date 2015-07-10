@@ -13,6 +13,10 @@ aside{
     text-align: center;
 }
 
+.code{
+    text-align: left !important;
+}
+
 .info{
     font-family: 'Maiden Orange', cursive;
     font-size: 6em;

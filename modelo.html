@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <title>ELVISLEY SOUZA PEREIRA</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Maiden+Orange&subset=latin,cyrillic-ext,greek-ext,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="style.css" type="text/css" rel="stylesheet" />
 
-	
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue-light_blue.min.css" />
+
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
-    
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,28 +25,190 @@
 	  ga('send', 'pageview');
 
 	</script>
-    
-    
+
+  <style>
+  .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+      url('https://nodejs.org/images/logos/js-black.svg') bottom right 15% no-repeat #46B6AC;
+  }
+  .demo-card-square > .mdl-card__title__2 {
+    color: #fff;
+    background:
+      url('http://linuxmint.com/pictures/screenshots/isadora/lxde/terminal.png') bottom right 15% no-repeat #46B6AC;
+  }
+
+  .mdl-badge[data-badge]:after{
+    width: 93px;
+    border-radius: 0%;
+    top: -27px;
+    background: none;
+    color: #000;
+  }
+  .mdl-card__media{
+    text-align: center;
+  }
+</style>
+
+
 </head>
 <body>
-    <header>
-    </header>
-     
-        
-    
-     <pre class="prettyprint lang-javascript">
-        
-              $('.loading').live('click',function() { 
-              var str=$(this).attr('title'); 
-              var overlay=$(this).attr('rel'); 
-              loading(str,overlay);
-              setTimeout("unloading()",1500); 
-        
-    </pre>
 
-    <footer>
-         Elvisley Souza Pereira | elvis.s.p90@gmail.com
-    </footer>
+   <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
+
+     <header>
+       <!-- Always shows a header, even in smaller screens. -->
+       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <header class="mdl-layout__header mdl-layout__header--scroll">
+           <div class="mdl-layout__header-row">
+             <!-- Title -->
+             <span class="mdl-layout-title">Elvisley.com.br</span>
+             <!-- Add spacer, to align navigation to the right -->
+             <div class="mdl-layout-spacer"></div>
+             <!-- Navigation. We hide it in small screens. -->
+             <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                        mdl-textfield--floating-label mdl-textfield--align-right">
+                <label class="mdl-button mdl-js-button mdl-button--icon"
+                       for="fixed-header-drawer-exp">
+                  <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                  <input class="mdl-textfield__input" type="text" name="sample"
+                         id="fixed-header-drawer-exp" />
+                </div>
+             </div>
+           </div>
+         </header>
+         <div class="mdl-layout__drawer">
+           <span class="mdl-layout-title">Elvisley</span>
+           <nav class="mdl-navigation">
+             <a class="mdl-navigation__link" href="">Sobre min</a>
+             <a class="mdl-navigation__link" href="">Portifolio</a>
+             <a class="mdl-navigation__link" href="">Contatos</a>
+             <a class="mdl-navigation__link" href="">Tutoriais</a>
+           </nav>
+         </div>
+         <main class="mdl-layout__content">
+           <div class="page-content"><!-- Your content goes here --></div>
+         </main>
+       </div>
+     </header>
+
+
+
+     <main class="mdl-layout__content" style="margin-top:80px">
+
+       <div class="demo-grid-1 mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+          <article>
+            <div class="mdl-card">
+
+              <div class="mdl-card__title">
+
+                 <h2 class="mdl-card__title-text">Introdução ao Terminal do Linux para Programadores FREE di gratis</h2>
+              </div>
+              <a href="#" class="mdl-badge" data-badge="12/08/2015 12:00"></a>
+              <div class="mdl-card__media">
+
+
+                <img src="https://nodejs.org/images/logos/js-black.svg" width="173" height="157" border="0" alt=""
+                 style="padding:10px;">
+              </div>
+              <div class="mdl-card__supporting-text">
+
+              The Sky Tower is an observation and telecommunications tower located in Auckland,
+              New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+              in the Southern Hemisphere.
+              </div>
+              <div class="mdl-card__actions">
+
+
+                 <a href="#">Acessar</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+          <article>
+            <div class="mdl-card">
+              <div class="mdl-card__title">
+                 <h2 class="mdl-card__title-text">Introdução ao Terminal do Linux para Programadores FREE di gratis</h2>
+              </div>
+              <a href="#" class="mdl-badge" data-badge="12/08/2015 12:00"></a>
+              <div class="mdl-card__media" style="background:#46B6AC">
+                <img src="http://boyanangelov.com/images/terminal_icon.png" width="173" height="157" border="0" alt=""
+                 style="padding:10px;">
+              </div>
+              <div class="mdl-card__supporting-text">
+              The Sky Tower is an observation and telecommunications tower located in Auckland,
+              New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+              in the Southern Hemisphere.
+              </div>
+              <div class="mdl-card__actions">
+                 <a href="#">Acessar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+          <article>
+            <div class="mdl-card">
+              <div class="mdl-card__title">
+                 <h2 class="mdl-card__title-text">Introdução ao Terminal do Linux para Programadores FREE di gratis</h2>
+              </div>
+              <a href="#" class="mdl-badge" data-badge="12/08/2015 12:00"></a>
+              <div class="mdl-card__media" style="background:#1F4055">
+                <img src="https://s3.amazonaws.com/codecademy-images/php.png" width="173" height="157" border="0" alt=""
+                 style="padding:10px;">
+              </div>
+              <div class="mdl-card__supporting-text">
+              The Sky Tower is an observation and telecommunications tower located in Auckland,
+              New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+              in the Southern Hemisphere.
+              </div>
+              <div class="mdl-card__actions">
+                 <a href="#">Acessar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+
+
+      </div>
+
+     </main>
+     <footer class="mdl-mega-footer">
+       Elvisley Souza Pereira | elvis.s.p90@gmail.com
+
+
+     </footer>
+
+   </div>
+
+
+
+
+
+     <!--<pre class="prettyprint lang-javascript">
+
+              $('.loading').live('click',function() {
+              var str=$(this).attr('title');
+              var overlay=$(this).attr('rel');
+              loading(str,overlay);
+              setTimeout("unloading()",1500);
+
+    </pre>-->
+
+
+
 
 </body>
 </html>

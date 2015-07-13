@@ -9,8 +9,6 @@
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-
-
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue-light_blue.min.css" />
 
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
@@ -54,6 +52,42 @@
   .mdl-card__media{
     text-align: center;
   }
+
+  .header-menu-lateral{
+  text-align: center;
+
+  }
+  .header-menu-lateral img{
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 11px;
+    margin-top: 14px;
+    margin-left: 8px;
+  }
+
+  .menu-lateral .material-icons{
+    position: relative;
+    top: 7px;
+    right: 4px;
+  }
+
+
+  .mdl-navigation a{
+    padding: 8px 22px !important;
+  }
+
+  .mdl-navigation .padroes{
+      width: 49px;
+  }
+  .mdl-navigation img{
+    width: 40px;
+    height: 100%;
+    margin-right: 6px;
+  }
+
+  .icon-small-reference{
+
+  }
 </style>
 
 
@@ -85,22 +119,37 @@
              </div>
            </div>
          </header>
-         <div class="mdl-layout__drawer">
-           <span class="mdl-layout-title">Elvisley</span>
+         <div class="mdl-layout__drawer menu-lateral">
+
+           <header class="header-menu-lateral">
+                <img src="http://www.gravatar.com/avatar/302f74b90d0176eae5ec21f1531dc68b" class="demo-avatar mdl-shadow--2dp">
+
+                <span class="mdl-layout-title"></span>
+                 <div class="mdl-layout-spacer"></div>
+          </header>
+
            <nav class="mdl-navigation">
-             <a class="mdl-navigation__link" href="">Sobre min</a>
-             <a class="mdl-navigation__link" href="">Portifolio</a>
-             <a class="mdl-navigation__link" href="">Contatos</a>
-             <a class="mdl-navigation__link" href="">Tutoriais</a>
+             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">account_circle</i>Sobre mim</a>
+             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">view_module</i>Portifolio</a>
+             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">forum</i>Contatos</a>
            </nav>
+
+           <hr/>
+
+           <nav class="mdl-navigation">
+             <a class="mdl-navigation__link" href=""><img class="padroes" src="imagens/padroes.png" />Padroes de Projeto</a>
+             <a class="mdl-navigation__link" href=""><img src="imagens/javascript.png" />JavaScript</a>
+             <a class="mdl-navigation__link" href=""><img src="imagens/php.png" />PHP</a>
+             <a class="mdl-navigation__link" href=""><img src="imagens/html.png" />HTML</a>
+             <a class="mdl-navigation__link" href=""><img src="imagens/css.png" />CSS</a>
+           </nav>
+
          </div>
          <main class="mdl-layout__content">
            <div class="page-content"><!-- Your content goes here --></div>
          </main>
        </div>
      </header>
-
-
 
      <main class="mdl-layout__content" style="margin-top:80px">
 
@@ -181,9 +230,9 @@
           </article>
         </div>
 
-
-
       </div>
+
+
 
      </main>
      <footer class="mdl-mega-footer">
